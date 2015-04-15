@@ -6,6 +6,9 @@
 body { 
 	background-image: url('../images/vegetables.jpg');
 	font-family: 'Helvetica', sans-serif;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: fixed;
 }
 .list { 
 	margin-top: 80px;

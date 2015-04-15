@@ -17,16 +17,34 @@ body {
 	height: 600px;
 }
 .title { 
-	height: 3rem;
+	height: 4rem;
 	margin-top: 80px;
 	text-align: left;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 900;
 }
 .box { 
-	background-color: mintcream;
+	background-color: gold;
 	margin: 0 auto;
 	width: 700px;
 	height: 600px;
+	border-radius: 7px;
+	border: 3px solid white;
+}
+.textbox { 
+	text-align: center;
+	padding-top: 12px;
+}
+.items li { 
+	font-size: 1.5rem;
+}
+.items .new { 
+	font-weight: bold;
+	color: white;
+}
+.items .strike { 
+	font-style: italic;
+	color: gray;
+	text-decoration: line-through;
 }

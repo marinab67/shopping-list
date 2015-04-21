@@ -20,9 +20,6 @@ function doneItem () {
 
 $(document).on("ready", function() {
 	$("#add").on("click", addItem); 
-	$(".textbox").keyDown(function(event) {
-  		if(event.keyCode == 13) {addItem}
-	});
 	//$(".delete").on("click", deleteItem);
 	//$(".done").on("click", doneItem);
 	$(document).on("click", ".done", doneItem);

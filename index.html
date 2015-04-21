@@ -2,6 +2,8 @@
 <html lang="en">
 <head> 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 <div class="list">
@@ -9,56 +11,30 @@
 		<h1>groceries</h1>
 	</div>
 	<div class="box">
-		<div class="produce">
-			<h2>produce</h2>
-			<div class="textbox">
-				<input type="text" class="new-item">
-				<button type="submit" id="add">+</button>
-			</div>
-			<div class="items">
-				<ul> 
-					<li class="new">beets</li>
-					<li class="new">plums</li>
-					<li class="strike">eggplant</li>
-				</ul>
-			</div>
+		<div class="textbox">
+			<input type="text" class="new-item">
+			<button type="submit" id="add">add</button>
 		</div>
-		<div class="bakery">
-			<h2>bakery</h2>
-			<div class="textbox">
-				<input type="text" class="new-item">
-				<button type="submit" id="add">+</button>
-			</div>
-			<div class="items">
-				<ul> 
-					<li class="new">bagels</li>
-					<li class="strike">challah</li>
-				</ul>
-			</div>
-		</div>
-		<div class="dairy">
-			<h2>dairy</h2>
-			<div class="textbox">
-				<input type="text" class="new-item">
-				<button type="submit" id="add">+</button>
-			</div>
-			<div class="items">
-				<ul> 
-					<li class="new">soy milk</li>
-				</ul>
-			</div>
-		</div>
-		<div class="misc">
-			<h2>misc.</h2>
-			<div class="textbox">
-				<input type="text" class="new-item">
-				<button type="submit" id="add">+</button>
-			</div>
-			<div class="items">
-				<ul> 
-					<li class="new">moscato</li>
-				</ul>
-			</div>
+		<div class="items">
+			<ul> 
+				<li class="new">
+					<input type="checkbox" class="done">beets
+					<button class="delete">delete</button></li>
+				<li class="new">
+					<input type="checkbox" class="done">plums
+					<button class="delete">delete</button></li>
+				<li class="strike">eggplant</li>
+				<li class="new">
+					<input type="checkbox" class="done">bagels
+					<button class="delete">delete</button></li>
+				<li class="strike">challah</li>
+				<li class="new">
+					<input type="checkbox" class="done">soy milk
+					<button class="delete">delete</button></li>
+				<li class="new">
+					<input type="checkbox" class="done">moscato
+					<button class="delete">delete</button></li>
+			</ul>
 		</div>
 	</div>
 </div>

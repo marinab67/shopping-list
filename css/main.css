@@ -27,7 +27,11 @@ body {
 	font-size: 2rem;
 	font-weight: 900;
 }
+.title h1 { 
+	padding-bottom: 20px;
+}
 .box { 
+	margin-top: 10px;
 	background-color: gold;
 	margin: 0 auto;
 	width: 700px;
@@ -40,6 +44,7 @@ h2 {
 	margin: 7px;
 }
 .textbox { 
+	padding-top: 15px;
 	padding-left: 12px;
 }
 .box h2 { 
